@@ -189,13 +189,13 @@ body {
 
 @keyframes anim1{
     0%{
-		transform: rotate(0deg);
+		transform: scale(1);
 	}
-    35%{
-        transform: rotate(50deg);
+    50%{
+        transform:scale(0.8);
     }
-    65%{
-		transform: rotate(50deg);
+    100%{
+		transform: scale(1);
 	}
 }
 
